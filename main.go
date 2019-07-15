@@ -16,6 +16,7 @@ func main() {
 	}))
 
 	g.GET("/health", controller.CheckHealth)
+	g.GET("/metrics", echo.WrapHandler(promhttp.Handler()))
 
 	e.Logger.Fatal(e.Start(":" + config.Port))
 }
