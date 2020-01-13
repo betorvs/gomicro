@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/igor822/gomicro/config"
-	"github.com/igor822/gomicro/controller"
+	"github.com/betorvs/gomicro/config"
+	"github.com/betorvs/gomicro/controller"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
 func main() {
