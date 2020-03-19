@@ -15,3 +15,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added config folder with basic file to define global variables
 - Added controller folder with health resource
 - Added appcontext to define a container in the project
+- Added version package to control version
+- Added build.sh script to help with embed versioning 
